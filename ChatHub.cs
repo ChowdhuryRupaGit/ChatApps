@@ -59,7 +59,7 @@ namespace ChatApp
 
         public string GetUserImage(string username)
         {
-            string RetimgName = "images/dummy.png";
+            string RetimgName = "images/dummys.png";
             try
             {
                 string query = "select Photo from tbl_Users where UserName='" + username + "'";

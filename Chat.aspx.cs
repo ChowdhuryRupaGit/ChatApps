@@ -10,7 +10,7 @@ namespace ChatApp
     public partial class Chat : System.Web.UI.Page
     {
         public string UserName = "admin";
-        public string UserImage = "/images/DP/dummy.png";
+        public string UserImage = "/images/dummys.png";
         protected string UploadFolderPath = "~/Uploads/";
         ConnectionClass connectionToDb = new ConnectionClass();
         protected void Page_Load(object sender, EventArgs e)

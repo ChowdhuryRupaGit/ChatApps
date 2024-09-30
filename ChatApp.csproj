@@ -101,6 +101,7 @@
     </None>
     <Content Include="Content\emojionearea.min.css" />
     <Content Include="Content\style.css" />
+    <Content Include="images\dummys.png" />
     <Content Include="Scripts\date.format.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -188,7 +189,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
